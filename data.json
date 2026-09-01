@@ -1,0 +1,26 @@
+{
+ "v": 1,
+ "site": {
+  "title": "선형대수학 풀이 노트",
+  "course": "LINEAR ALGEBRA",
+  "subtitle": "매주 올라오는 숙제 풀이 아카이브"
+ },
+ "posts": [
+  {
+   "id": "p_sample01",
+   "sample": true,
+   "week": 0,
+   "title": "작성 예시 — 수식은 이렇게 써요",
+   "date": "2026-09-01",
+   "note": "이 글은 예시예요. 관리 모드에서 삭제하고 1주차 풀이부터 시작하세요. 풀이 안에서 \\$ ... \\$ 로 감싸면 인라인 수식이 되고, \\$\\$ ... \\$\\$ 로 감싸면 별도 줄 수식이 돼요.",
+   "problems": [
+    {
+     "id": "q_sample01",
+     "label": "예시 문제",
+     "body": "행렬 $A=\\begin{pmatrix}2&1\\\\1&2\\end{pmatrix}$ 의 고유값과 고유벡터를 구하시오.\n\n**풀이.** 특성방정식은\n$$\\det(A-\\lambda I)=(2-\\lambda)^2-1=\\lambda^2-4\\lambda+3=(\\lambda-1)(\\lambda-3)=0$$\n이므로 고유값은 $\\lambda_1=1,\\ \\lambda_2=3$ 이다.\n\n$\\lambda_1=1$ 일 때 $(A-I)\\mathbf{v}=\\mathbf{0}$ 에서 $\\mathbf{v}_1=\\begin{pmatrix}1\\\\-1\\end{pmatrix}$,\n$\\lambda_2=3$ 일 때 $(A-3I)\\mathbf{v}=\\mathbf{0}$ 에서 $\\mathbf{v}_2=\\begin{pmatrix}1\\\\1\\end{pmatrix}$ 를 얻는다."
+    }
+   ],
+   "attachments": []
+  }
+ ]
+}
