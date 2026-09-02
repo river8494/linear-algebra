@@ -7,6 +7,28 @@
  },
  "posts": [
   {
+   "id": "p_mtk8uloni6bwa",
+   "week": 1,
+   "title": "1주차 숙제 풀이",
+   "date": "2026-09-03",
+   "problems": [
+    {
+     "id": "q_mtk8ub4vxl412",
+     "label": "문제 1",
+     "body": "예시입니다."
+    }
+   ],
+   "attachments": [
+    {
+     "id": "a_mtk8uku3x8end",
+     "kind": "image",
+     "name": "스크린샷 2026-09-03 오전 12.01.50.jpg",
+     "size": 111155,
+     "path": "uploads/w01-mtk8ulon1.jpg"
+    }
+   ]
+  },
+  {
    "id": "p_sample01",
    "sample": true,
    "week": 0,
